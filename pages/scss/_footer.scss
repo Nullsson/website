@@ -52,12 +52,12 @@
             height: 30px;
             width: 30px;
             line-height: 30px;
-            background: #4c4588;
+            background: $primary-color;
             margin-left: 6px;
             display: inline-block;
             text-align: center;
             &:hover {
-                background: $primary-color;
+                background: $primary-color2;
             }
         }
     }

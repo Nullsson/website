@@ -4741,13 +4741,13 @@ h6 {
   height: 30px;
   width: 30px;
   line-height: 30px;
-  background: #4c4588;
+  background: #79AB36;
   margin-left: 6px;
   display: inline-block;
   text-align: center;
 }
 .single-footer-widget .social_widget a:hover {
-  background: #79AB36;
+  background: #94D142;
 }
 
 /* End Footer Area css
