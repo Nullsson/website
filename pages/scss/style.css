@@ -3810,6 +3810,40 @@ h6 {
 
 /* End Newsletter Area css
 ============================================================================================ */
+/* Start About Area css
+============================================================================================ */
+.about_us_info_area {
+  position: relative;
+}
+
+.about_us_info_content {
+  position: relative;
+}
+.about_us_info_content:before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: -webkit-linear-gradient(to right, #000 0%, #000 51%, #000 100%);
+  background: -moz-linear-gradient(to right, #000 0%, #000 51%, #000 100%);
+  background: -ms-linear-gradient(to right, #000 0%, #000 51%, #000 100%);
+  background: -o-linear-gradient(to right, #000 0%, #000 51%, #000 100%);
+  background: linear-gradient(to right, #000 0%, #000 51%, #000 100%);
+}
+.about_us_info_content .section_content {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.theteam_area {
+  padding: 80px 0 80px;
+}
+
+/* End About Area css
+============================================================================================ */
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 @media (max-width: 1619px) {
@@ -4733,13 +4767,13 @@ h6 {
   height: 30px;
   width: 30px;
   line-height: 30px;
-  background: #4c4588;
+  background: #79AB36;
   margin-left: 6px;
   display: inline-block;
   text-align: center;
 }
 .single-footer-widget .social_widget a:hover {
-  background: #79AB36;
+  background: #94D142;
 }
 
 /* End Footer Area css

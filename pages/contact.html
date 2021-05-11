@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="icon" href="img/favicon.png" type="image/png">
-        <title>Nexus SaaS</title>
+        <title>Contact</title>
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="vendors/linericon/style.css">
@@ -15,8 +15,7 @@
         <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
         <link rel="stylesheet" href="vendors/animate-css/animate.css">
         <!-- main css -->
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="scss/style.css">
     </head>
     <body>
         
@@ -26,7 +25,7 @@
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <div class="container">
                         <!-- Brand and toggle get grouped for better mobile display -->
-                        <a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
+                        <a class="navbar-brand logo_h" href="index.html"><img src="img/Nullsson.png" width="50" height="50" alt=""> Nullsson</a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="icon-bar"></span>
@@ -37,29 +36,16 @@
                         <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                             <ul class="nav navbar-nav menu_nav justify-content-center">
                                 <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                                <li class="nav-item"><a class="nav-link" href="about-us.html">About</a></li>
-                                <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a>
                                 <li class="nav-item submenu dropdown">
                                     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                                     aria-expanded="false">Pages</a>
                                     <ul class="dropdown-menu">
-                                        <li class="nav-item"><a class="nav-link" href="price.html">Pricing</a>
-                                        <li class="nav-item"><a class="nav-link" href="games.html">Games</a>
-                                        <li class="nav-item"><a class="nav-link" href="elements.html">Elements</a>
+                                        <li class="nav-item"><a class="nav-link" href="generic-page.html">Generic Page</a>
                                     </ul>
                                 </li>
-                                <li class="nav-item submenu dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                                    aria-expanded="false">Blog</a>
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
-                                    </ul>
-                                </li>
+                                <li class="nav-item"><a class="nav-link" href="about-us.html">About</a></li>
                                 <li class="nav-item active"><a class="nav-link" href="contact.html">Contact</a></li>
-                            </ul>
-                            <ul class="nav navbar-nav navbar-right">
-                                <li class="nav-item"><a href="#" class="primary_btn">join us</a></li>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -79,7 +65,6 @@
 							<a href="contact.html">CONTACT</a>
 						</div>
 						<h2>CONTACT US</h2>
-						
 					</div>
 				</div>
             </div>
@@ -89,126 +74,54 @@
         <!--================Contact Area =================-->
         <section class="contact_area section_gap">
             <div class="container">
-                <div id="mapBox" class="mapBox" 
-                    data-lat="40.701083" 
-                    data-lon="-74.1522848" 
-                    data-zoom="13" 
-                    data-info="PO Box CT16122 Collins Street West, Victoria 8007, Australia."
-                    data-mlat="40.701083"
-                    data-mlon="-74.1522848">
-                </div>
                 <div class="row">
                     <div class="col-lg-3">
                         <div class="contact_info">
                             <div class="info_item">
-                                <i class="lnr lnr-home"></i>
-                                <h6>California, United States</h6>
-                                <p>Santa monica bullevard</p>
-                            </div>
-                            <div class="info_item">
-                                <i class="lnr lnr-phone-handset"></i>
-                                <h6><a href="#">00 (440) 9865 562</a></h6>
-                                <p>Mon to Fri 9am to 6 pm</p>
-                            </div>
-                            <div class="info_item">
                                 <i class="lnr lnr-envelope"></i>
-                                <h6><a href="#">support@colorlib.com</a></h6>
-                                <p>Send us your query anytime!</p>
+                                <h6><a href="#">admin@nullsson.se</a></h6>
+                                <p>Get in touch with us anytime!</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-9">
-                        <form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter email address">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter Subject">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <textarea class="form-control" name="message" id="message" rows="1" placeholder="Enter Message"></textarea>
-                                </div>
-                            </div>
-                            <div class="col-md-12 text-right">
-                                <button type="submit" value="submit" class="primary_btn">Send Message</button>
-                            </div>
-                        </form>
                     </div>
                 </div>
             </div>
         </section>
         <!--================Contact Area =================-->
         
-        <!--================Footer Area =================-->
-        <footer class="footer_area section_gap_top">
+        <!--================ Start Newsletter Area ================-->
+        <section class="newsletter_area">
             <div class="container">
-                <div class="row footer_inner">
-                    <div class="col-lg-3 col-sm-6">
-                        <aside class="f_widget ab_widget">
-                            <div class="f_title">
-                                <h4>About Farfly</h4>
-                            </div>
-                            <ul>
-                                <li><a href="#"></a>For Business</a></li><a href="#">
-                                    <li><a href="#"></a>Premium Plans
-                                </a></li>
-                                <li><a href="#"></a>Reviews</a></li>
-                                <li><a href="#"></a>How it Works</a></li>
-                                <li><a href="#"></a>Farfly Blog</a></li>
-                            </ul>
-                        </aside>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="newsletter_inner">
+                            <h1>Subscribe To Our Newsletter</h1>
+                            <p>Be the first to learn about our updates!</p>
+                        </div>
                     </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <aside class="f_widget ab_widget">
-                            <div class="f_title">
-                                <h4>Company</h4>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <aside class="newsletter_widget">
+                            <div id="mc_embed_signup">
+                                <form target="_blank" action="https://nullsson.us1.list-manage.com/subscribe/post?u=ed7e532089f6051909105b732&amp;id=86a1e45d02"
+                                method="post" class="subscribe_form relative" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" novalidate>
+                                    <div class="input-group d-flex flex-row">
+                                        <input name="EMAIL" placeholder="Enter email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your email address'"
+                                        required="" type="email">
+                                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ed7e532089f6051909105b732_86a1e45d02" tabindex="-1" value=""></div>
+                                        <button class="btn primary_btn">Subscribe</button>
+                                    </div>
+                                </form>
                             </div>
-                            <ul>
-                                <li><a href="#"></a>Product Tour</a></li><a href="#">
-                                    <li><a href="#"></a>Pricing
-                                </a></li>
-                                <li><a href="#"></a>Founding Members</a></li>
-                                <li><a href="#"></a>Case Studies</a></li>
-                                <li><a href="#"></a>Product Updates</a></li>
-                            </ul>
-                        </aside>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <aside class="f_widget ab_widget">
-                            <div class="f_title">
-                                <h4>Support</h4>
-                            </div>
-                            <ul>
-                                <li><a href="#"></a>Documentation</a></li><a href="#">
-                                    <li><a href="#"></a>Data Securiry
-                                </a></li>
-                                <li><a href="#"></a>Site Performance</a></li>
-                                <li><a href="#"></a>Action Plan</a></li>
-                                <li><a href="#"></a>Resources</a></li>
-                            </ul>
-                        </aside>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <aside class="f_widget ab_widget">
-                            <div class="f_title">
-                                <h4>Legal</h4>
-                            </div>
-                            <ul>
-                                <li><a href="#"></a>Terms and conditions</a></li><a href="#">
-                                    <li><a href="#"></a>Privacy Policy
-                                </a></li>
-                                <li><a href="#"></a>Cookie Information</a></li>
-                                <li><a href="#"></a>Opt - Out</a></li>
-                            </ul>
                         </aside>
                     </div>
                 </div>
+            </div>
+        </section>
+        <!--================ End Newsletter Area ================-->
+
+        <!--================Footer Area =================-->
+        <footer class="footer_area section_gap_top">
+            <div class="container">
                 <div class="row single-footer-widget">
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <div class="copy_right_text">
@@ -219,51 +132,14 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <div class="social_widget">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-dribbble"></i></a>
-                            <a href="#"><i class="fa fa-behance"></i></a>
+                            <a href="https://twitter.com/nullssondev"><i class="fa fa-twitter"></i></a>
+                            <a href="https://github.com/Nullsson"><i class="fa fa-github"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
         </footer>
         <!--================End Footer Area =================-->
-        
-        <!--================Contact Success and Error message Area =================-->
-        <div id="success" class="modal modal-message fade" role="dialog">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <i class="fa fa-close"></i>
-                        </button>
-                        <h2>Thank you</h2>
-                        <p>Your message is successfully sent...</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Modals error -->
-
-        <div id="error" class="modal modal-message fade" role="dialog">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <i class="fa fa-close"></i>
-                        </button>
-                        <h2>Sorry !</h2>
-                        <p> Something went wrong </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--================End Contact Success and Error message Area =================-->
-        
-        
-        
         
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
