@@ -2,17 +2,18 @@
 
 ## Install
 
-* Install Visual studio or Visual studio build tools.
-* npm install -g sass
+1. Install Ruby+Devkit: [https://rubyinstaller.org/](https://rubyinstaller.org/)
+2. Run the ridk install step on the last stage of the installation wizard.
+3. Install Jekyll and Bundler using `gem install jekyll bundler`
+4. Check if Jekyll has been installed properly: `jekyll -v`
+5. Run `bundle install` within the root directory.
+
+## Developing
+
+To serve the application while working: `jekyll serve`
 
 ## Building
 
-In order to build the application run `build.bat` or `build.sh` depending on your system.
+In order to build the jekyll site run: `jekyll build`
 
-To build the scss:
-
-```cmd
-cd pages
-cd scss
-sass style.scss style.css
-```
+Then copy the contents within the `_site` directory to your server.
