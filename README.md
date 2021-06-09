@@ -16,10 +16,4 @@ To serve the application while working: `jekyll serve`
 
 In order to build the jekyll site run: `jekyll build`
 
-To build the scss:
-
-```cmd
-cd pages
-cd scss
-sass style.scss style.css
-```
+Then copy the contents within the `_site` directory to your server.
