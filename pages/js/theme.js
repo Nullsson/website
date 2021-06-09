@@ -85,7 +85,6 @@ function purecookieDismiss() {
 
   var $window = $(window);
   $window.on("load", function () {
-    console.log("loaded");
     cookieConsent();
   });
 
